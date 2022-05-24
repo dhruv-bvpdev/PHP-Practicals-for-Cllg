@@ -20,7 +20,7 @@
         $n1 = 0;
         $n2 = 1;
         echo $n1.' '.$n2.' ';
-        for($i = 1; $i <= $number - 2; $i++) {
+        for($i = 2; $i <= $number - 1; $i++) {
             $n3 = $n1 + $n2;
             echo $n3.' ';
             $n1 = $n2;
